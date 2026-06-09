@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Portfolio</title>
+
+    <meta name="description"
+          content="AI, automation, smart farm, embedded systems portfolio">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar" aria-label="Primary navigation">
+    <div class="nav-container">
+        <a class="logo" href="#top" aria-label="AI Portfolio home">
+            AI Portfolio
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#aiworks">AI Works</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+            <p class="eyebrow">AI · Automation · Smart Farm · Embedded</p>
+
+            <h1 id="hero-title">AI Portfolio</h1>
+
+            <p class="hero-lead">
+                아이디어를 조사하고, AI로 정리하고, 자동화와 임베디드 시스템으로 실제 결과물까지 만드는 포트폴리오입니다.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#gallery" class="btn-secondary">Open Gallery</a>
+            </div>
+        </div>
+
+        <img
+            class="hero-visual"
+            src="assets/hero-dashboard.png"
+            alt="AI project dashboard style portfolio visual"
+            width="1600"
+            height="900"
+            fetchpriority="high">
+    </section>
+
+    <section class="section light" id="about" data-reveal>
+        <div class="container narrow">
+            <h2>About</h2>
+
+            <p class="lead">
+                문제를 발견하고 기술로 해결 과정을 설계하는 작업을 좋아합니다.
+            </p>
+
+            <p>
+                생성형 AI를 단순한 질문 도구가 아니라 조사, 기획, 콘텐츠 제작, 코드 작성,
+                프로토타이핑을 빠르게 연결하는 작업 파트너로 사용합니다. 스마트팜, 자동화,
+                전자종이 디스플레이, 커뮤니티 서비스 기획처럼 서로 다른 분야를 작은 프로젝트로
+                실험하며 결과물 중심으로 정리하고 있습니다.
+            </p>
+        </div>
+    </section>
+
+    <section class="section dark" id="projects">
+        <div class="container wide">
+            <div class="section-heading" data-reveal>
+                <h2>Featured Projects</h2>
+                <p>
+                    직접 조사하고 설계한 프로젝트를 시각 자료와 함께 한눈에 볼 수 있도록 정리했습니다.
+                </p>
+            </div>
+
+            <div class="project-grid">
+                <article class="project-card" data-reveal>
+                    <img
+                        src="assets/project-display.png"
+                        alt="Lunch display project preview"
+                        width="1000"
+                        height="720"
+                        loading="lazy">
+
+                    <div class="card-body">
+                        <p class="card-kicker">Embedded · Automation</p>
+                        <h3>급식 알리미</h3>
+                        <p>
+                            ESP32와 전자종이 디스플레이를 사용해 급식 정보를 자동으로 표시하는
+                            저전력 안내 시스템을 기획했습니다.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-reveal>
+                    <img
+                        src="assets/project-smart-farm.png"
+                        alt="Smart farm research preview"
+                        width="1000"
+                        height="720"
+                        loading="lazy">
+
+                    <div class="card-body">
+                        <p class="card-kicker">Research · Report</p>
+                        <h3>스마트팜 인터뷰 분석</h3>
+                        <p>
+                            현장 전문가 인터뷰를 바탕으로 운영 인사이트와 기술 과제를 정리하고,
+                            보고서 형태로 구조화했습니다.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-reveal>
+                    <img
+                        src="assets/project-corepick.png"
+                        alt="CorePick product planning preview"
+                        width="1000"
+                        height="720"
+                        loading="lazy">
+
+                    <div class="card-body">
+                        <p class="card-kicker">Product · Community</p>
+                        <h3>CorePick</h3>
+                        <p>
+                            관심사 기반 IT 커뮤니티 플랫폼을 기획하며 핵심 사용자 흐름,
+                            화면 구성, 서비스 구조를 설계했습니다.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-reveal>
+                    <img
+                        src="assets/project-survival.png"
+                        alt="Survival game system preview"
+                        width="1000"
+                        height="720"
+                        loading="lazy">
+
+                    <div class="card-body">
+                        <p class="card-kicker">Game Design · Concept</p>
+                        <h3>Minecraft Survival Concept</h3>
+                        <p>
+                            생존 규칙과 환경 변화를 기반으로 새로운 플레이 경험을 설계하고,
+                            규칙과 성장 흐름을 문서화했습니다.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section light" id="aiworks">
+        <div class="container">
+            <div class="section-heading" data-reveal>
+                <h2>AI Works</h2>
+                <p>
+                    AI를 사용하는 방식이 분명히 보이도록 작업 유형을 세 가지로 나눴습니다.
+                </p>
+            </div>
+
+            <div class="ai-grid">
+                <article class="ai-card" data-reveal>
+                    <span class="ai-number">01</span>
+                    <h3>Research</h3>
+                    <ul>
+                        <li>인터뷰 분석과 핵심 문장 추출</li>
+                        <li>기술 조사와 비교표 작성</li>
+                        <li>보고서 목차와 요약 구조 설계</li>
+                    </ul>
+                </article>
+
+                <article class="ai-card" data-reveal>
+                    <span class="ai-number">02</span>
+                    <h3>Content</h3>
+                    <ul>
+                        <li>카드뉴스 문구와 화면 흐름 제작</li>
+                        <li>홍보 문구와 발표 자료 초안 작성</li>
+                        <li>프로젝트 이미지 콘셉트 생성</li>
+                    </ul>
+                </article>
+
+                <article class="ai-card" data-reveal>
+                    <span class="ai-number">03</span>
+                    <h3>Development</h3>
+                    <ul>
+                        <li>HTML, CSS, JavaScript 프로토타입 제작</li>
+                        <li>오류 원인 분석과 디버깅</li>
+                        <li>기능 기획을 코드 구조로 변환</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section dark compact" aria-labelledby="workflow-title">
+        <div class="container">
+            <div class="section-heading" data-reveal>
+                <h2 id="workflow-title">Workflow</h2>
+            </div>
+
+            <div class="workflow" aria-label="Project workflow">
+                <div class="workflow-step" data-reveal>
+                    <span>01</span>
+                    Idea
+                </div>
+                <div class="workflow-step" data-reveal>
+                    <span>02</span>
+                    Research
+                </div>
+                <div class="workflow-step" data-reveal>
+                    <span>03</span>
+                    AI Draft
+                </div>
+                <div class="workflow-step" data-reveal>
+                    <span>04</span>
+                    Prototype
+                </div>
+                <div class="workflow-step" data-reveal>
+                    <span>05</span>
+                    Result
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section light" id="gallery">
+        <div class="container wide">
+            <div class="section-heading" data-reveal>
+                <h2>Gallery</h2>
+                <p>
+                    카드뉴스, 보고서, 이미지 콘셉트, 발표 자료처럼 실제 결과물로 확장 가능한 작업들입니다.
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <button
+                    class="gallery-card"
+                    type="button"
+                    data-title="카드뉴스"
+                    data-image="assets/gallery-cardnews.png"
+                    data-description="정보를 짧은 화면 흐름으로 정리해 SNS나 발표 자료에 바로 활용할 수 있게 구성합니다."
+                    data-reveal>
+                    <img src="assets/gallery-cardnews.png" alt="Card news preview" width="900" height="900" loading="lazy">
+                    <span>카드뉴스</span>
+                </button>
+
+                <button
+                    class="gallery-card"
+                    type="button"
+                    data-title="보고서"
+                    data-image="assets/gallery-report.png"
+                    data-description="조사한 내용을 목차, 핵심 요약, 근거 자료, 결론 순서로 읽기 쉽게 정리합니다."
+                    data-reveal>
+                    <img src="assets/gallery-report.png" alt="Report preview" width="900" height="900" loading="lazy">
+                    <span>보고서</span>
+                </button>
+
+                <button
+                    class="gallery-card"
+                    type="button"
+                    data-title="AI 이미지"
+                    data-image="assets/gallery-ai-image.png"
+                    data-description="프로젝트의 분위기와 목적을 설명할 수 있는 이미지 콘셉트를 만들고 웹 페이지에 맞게 다듬습니다."
+                    data-reveal>
+                    <img src="assets/gallery-ai-image.png" alt="AI image concept preview" width="900" height="900" loading="lazy">
+                    <span>AI 이미지</span>
+                </button>
+
+                <button
+                    class="gallery-card"
+                    type="button"
+                    data-title="발표 자료"
+                    data-image="assets/gallery-slides.png"
+                    data-description="아이디어, 조사 결과, 프로젝트 구조를 슬라이드 흐름으로 바꿔 설명력을 높입니다."
+                    data-reveal>
+                    <img src="assets/gallery-slides.png" alt="Presentation slides preview" width="900" height="900" loading="lazy">
+                    <span>발표 자료</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="future" data-reveal>
+        <div class="future-content">
+            <p class="eyebrow">Next</p>
+
+            <h2>AI as a Creative Partner</h2>
+
+            <p>
+                앞으로도 AI를 결과물 제작의 속도를 높이는 도구로 사용하면서,
+                스마트팜, 자동화, 임베디드 시스템 분야에서 더 다양한 프로젝트를 실험할 계획입니다.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <p>Portfolio Website</p>
+        <p>Design inspired by Apple's web design philosophy.</p>
+        <p>Design specification powered by Design.md</p>
+        <p>https://getdesign.md</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
